@@ -1,0 +1,95 @@
+
+html{
+background-image:url(background.jpg);
+height: 100%;
+background-size:contain;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.spazio{
+height: 40px;
+}
+
+img{
+width: 20%;
+margin-left: auto;
+margin-right: auto;
+display: block;
+}
+
+h1{
+text-align: center;
+color: limegreen;
+font-family: sans-serif;
+}
+
+.bottoni{
+height: 50px;
+background-color: limegreen;
+line-height: 50px;
+display: inline-block;
+margin-left: 80px;
+width:80%;
+text-align: center;
+background-position: center;
+}
+
+main{
+background-color: rgba(0, 0, 10, 0.5);
+margin: auto;
+border-radius: 10px;
+width: 45%;
+position: relative;
+top: 65px;
+height: 620px;
+}
+
+div>span{
+color: white;
+font-size: 22px;
+font-family: sans-serif;
+  }
+
+div{
+margin-top: 10px;
+margin-left: 3px;
+  }
+
+h4{color: lightgrey;
+font-family: sans-serif;
+margin-top:5px;
+  }
+
+.monopattini{
+margin-left: 80px;
+margin-top: 25px;
+  }
+
+.carica{
+background-color: orange;
+width: 380px;
+height: 24px;
+border-radius: 5px;
+margin-top: 0px;
+  }
+
+.caricafull{
+background-color: limegreen;
+width: 600px;
+height: 24px;
+border-radius: 5px;
+margin-top: 0px;
+  }
+
+.caricalow{
+background-color: red;
+width: 150px;
+height: 24px;
+border-radius: 5px;
+margin-top: 0px;
+margin-bottom: 200px;
+  }
+
+*{box-sizing: border-box;
+    margin: 0px;}
